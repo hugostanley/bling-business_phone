@@ -1,0 +1,130 @@
+header {
+	max-width: 100vw;
+	background-color: var(--purple-200);
+}
+
+nav {
+	height: 10vh;
+	background-color: var(--purple-200);
+	padding: clamp(1rem,4%, 2rem) 0 0 6%;
+}
+
+h4 {
+	font-size: clamp(1.2rem, 3vw, 1.5rem);
+	text-align: center;
+	color: #383838;
+}
+
+.nav-con {
+	padding: clamp(0.5rem, 2%, 1rem) clamp(1rem, 4%, 1.5rem);
+	width: max-content;
+	background-color: white;
+	border-radius: clamp(2rem,5rem, 5rem);
+}
+
+.nav-logo {
+	height: auto;
+	width: clamp(5rem, 15vw, 6rem);
+}
+
+.heading {
+	padding: 4% 6% 4% 6%;
+	color: white;
+	gap: 1rem;
+}
+
+.heading h1 {
+	font-size: clamp(2rem,10vw,5rem);
+	line-height: 1.1;
+}
+
+.heading h3 {
+	color: var(--orange-200);
+	font-size: clamp(1.5rem, 5vw, 2rem);
+}
+
+.heading p {
+	font-size: clamp(1.2rem, 3vw, 1.5rem);
+}
+
+.cta-sign_up {
+	padding: clamp(0.8rem, 4%, 1rem) clamp(1rem, 4%, 1.1rem);
+	border: none;
+	border-radius: 2rem;
+	background-color: var(--orange-200);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	font-weight: 800;
+	font-size: clamp(1.2rem, 4vw, 1.5rem);
+	color: white;
+	cursor: pointer;
+	transition: all 400ms ease;
+}
+
+.cta-sign_up:hover{
+	background-color: var(--orange-300);
+}
+
+.hero {
+	padding: clamp(1rem,3%,1.5rem) clamp(0.5rem,2%,1rem);
+}
+
+.hero-con {
+	padding: clamp(1rem,7%,3rem) 0 clamp(1rem, 2%, 1rem) clamp(1rem,2%,1.5rem);
+	border-radius: 1rem;
+	background-color: var(--orange-200);
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hero-img {
+	height: auto;
+	width: clamp(3rem, 70vw, 18rem) ;
+}
+
+.social-proof {
+	padding: clamp(2rem,12%,3rem) clamp(2rem, 3%, 5rem);
+	gap: 1rem;
+}
+
+.social-proof-con {
+	flex-wrap: wrap;
+}
+
+.social-proof-img {
+	height: auto;
+	width: clamp(1rem, 50% , 20rem);
+}
+
+.product-desc {
+	padding: clamp(1rem, 9%, 3rem) clamp(1rem,5%,1.1rem);
+	background-color: var(--purple-200);
+	gap: 2rem;
+}
+
+.product-desc h4 {
+	color: white;
+}
+
+.product-desc span {
+	display: block;
+}
+
+.product-dec_con span.material-symbols-outlined {
+	color: var(--orange-200);
+	font-weight: 700;
+	font-size: clamp(1.5rem, 15vw, 3rem);
+	margin-bottom: 1rem;
+}
+
+span+span {
+	color: white;
+	font-size: clamp(1rem,5vw,1.3rem);
+}
+
+.product-dec_con {
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.product-desc_item {
+	width: clamp(7.5rem, 20vw, 10rem);
+}
