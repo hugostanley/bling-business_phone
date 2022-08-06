@@ -1,0 +1,56 @@
+:root {
+	--purple-200: #855cf8;
+	--orange-200: #fb8c02;
+	--orange-300: #e37302;
+}
+
+*,
+*::after,
+*::before{
+	box-sizing: border-box ;
+	padding: 0;
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	line-height: 1.3;
+}
+
+.df {
+	display: flex;
+}
+
+.jc-c {
+	justify-content: center;
+}
+
+.jc-fs {
+	justify-content: flex-start;
+}
+
+.jc-fe {
+	justify-content: flex-end;
+}
+
+.jc-sb {
+	justify-content: space-between;
+}
+
+.jc-se {
+	justify-content: space-evenly;
+}
+
+.jc-sa{
+	justify-content: space-around;
+}
+
+.ai-c {
+	align-items: center;
+}
+
+.ai-fs {
+	align-items: flex-start;
+}
+
+.fd-c {
+	flex-direction: column;
+}
+
