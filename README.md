@@ -1,7 +1,7 @@
 # Bling Business Phone
 A Landing Page for Bling's Business Phone feature
 
-[Landing Page Preview](https://bling-business-phone.vercel.app/)
+[Landing Page Preview Deployment](https://bling-business-phone.vercel.app/)
 
 ## Tech Stack
 - HTML
