@@ -1,225 +1,225 @@
 li {
-	list-style: none;
+  list-style: none;
 }
 header {
-	max-width: 100vw;
-	background-color: var(--purple-200);
-	padding: 1% 2%;
+  max-width: 100vw;
+  background-color: var(--purple-200);
+  padding: 1% 2%;
 }
 
 nav {
-	height: 10vh;
-	background-color: var(--purple-200);
-	padding: clamp(1rem,4%, 2rem) 0 0 clamp(1rem,10.5%,3rem);
+  height: 10vh;
+  background-color: var(--purple-200);
+  padding: clamp(1rem,4%, 2rem) 0 0 clamp(1rem,10.5%,3rem);
 }
 
 h4 {
-	font-size: clamp(1.2rem, 3vw, 1.5rem);
-	text-align: center;
-	color: #383838;
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  text-align: center;
+  color: #383838;
 }
 
 .nav-con {
-	padding: clamp(0.5rem, 2%, 1rem) clamp(1rem, 4%, 1.5rem);
-	width: max-content;
-	background-color: white;
-	border-radius: clamp(2rem,5rem, 5rem);
+  padding: clamp(0.5rem, 2%, 1rem) clamp(1rem, 4%, 1.5rem);
+  width: max-content;
+  background-color: white;
+  border-radius: clamp(2rem,5rem, 5rem);
 }
 
 .nav-logo {
-	height: auto;
-	width: clamp(5rem, 15vw, 6rem);
+  height: auto;
+  width: clamp(5rem, 15vw, 6rem);
 }
 
 
 .heading {
-	padding: 4% clamp(2rem,6%, 3rem) ;
-	color: white;
-	gap: 1rem;
+  padding: 4% clamp(2rem,6%, 3rem) ;
+  color: white;
+  gap: 1rem;
 }
 
 .heading h1 {
-	font-size: clamp(2rem,10vw,5rem);
-	line-height: 1.1;
+  font-size: clamp(2rem,10vw,5rem);
+  line-height: 1.1;
 }
 
 .heading h3 {
-	color: var(--orange-200);
-	font-size: clamp(1.5rem, 5vw, 2rem);
+  color: var(--orange-200);
+  font-size: clamp(1.5rem, 5vw, 2rem);
 }
 
 .heading p {
-	font-size: clamp(1.2rem, 3vw, 1.5rem);
+  font-size: clamp(1.2rem, 3vw, 1.5rem);
 }
 
 .cta-sign_up {
-	padding: clamp(0.8rem, 4%, 1rem) clamp(1rem, 4%, 1.1rem);
-	border: none;
-	border-radius: 2rem;
-	background-color: var(--orange-200);
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	font-weight: 800;
-	font-size: clamp(1.2rem, 4vw, 1.5rem);
-	color: white;
-	cursor: pointer;
-	transition: all 400ms ease;
+  padding: clamp(0.8rem, 4%, 1rem) clamp(1rem, 4%, 1.1rem);
+  border: none;
+  border-radius: 2rem;
+  background-color: var(--orange-200);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  font-weight: 800;
+  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  color: white;
+  cursor: pointer;
+  transition: all 400ms ease;
 }
 
 .cta-sign_up:hover{
-	background-color: var(--orange-300);
+  background-color: var(--orange-300);
 }
 
 .hero {
-	padding: clamp(1rem,3%,1.5rem) clamp(0.5rem,2%,1rem);
+  padding: clamp(1rem,3%,1.5rem) clamp(0.5rem,2%,1rem);
 }
 
 .hero-con {
-	padding: clamp(1rem,7%,3rem) 0 clamp(1rem, 2%, 1rem) clamp(1rem,2%,1.5rem);
-	border-radius: 1rem;
-	background-color: var(--orange-200);
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: clamp(1rem,7%,3rem) 0 clamp(1rem, 2%, 1rem) clamp(1rem,2%,1.5rem);
+  border-radius: 1rem;
+  background-color: var(--orange-200);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .hero-img {
-	height: auto;
-	width: clamp(3rem, 70vw, 20rem) ;
+  height: auto;
+  width: clamp(3rem, 70vw, 20rem) ;
 }
 
 .social-proof {
-	padding: clamp(2rem,12%,3rem) clamp(2rem, 3%, 5rem);
-	gap: 1rem;
+  padding: clamp(2rem,12%,3rem) clamp(2rem, 3%, 5rem);
+  gap: 1rem;
 }
 
 .social-proof-con {
-	flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .social-proof-img {
-	height: auto;
-	width: clamp(1rem, 50% , 20rem);
+  height: auto;
+  width: clamp(1rem, 50% , 20rem);
 }
 
 .product-desc {
-	padding: clamp(1rem, 6%, 9rem) clamp(1rem,6%,3rem);
-	padding-top: clamp(1rem, 12%, 3rem) ;
-	background-color: var(--purple-200);
-	gap: 2rem;
+  padding: clamp(1rem, 6%, 9rem) clamp(1rem,6%,3rem);
+  padding-top: clamp(1rem, 12%, 3rem) ;
+  background-color: var(--purple-200);
+  gap: 2rem;
 }
 
 .product-desc h4 {
-	color: white;
+  color: white;
 }
 
 .product-desc span {
-	display: block;
+  display: block;
 }
 
 .product-dec_con span.material-symbols-outlined {
-	color: var(--orange-200);
-	font-weight: 700;
-	font-size: clamp(1.5rem, 15vw, 3rem);
-	margin-bottom: 1rem;
+  color: var(--orange-200);
+  font-weight: 700;
+  font-size: clamp(1.5rem, 15vw, 3rem);
+  margin-bottom: 1rem;
 }
 
 span+span {
-	color: white;
-	font-size: clamp(1rem,4vw,1.3rem);
+  color: white;
+  font-size: clamp(1rem,4vw,1.3rem);
 }
 
 .product-dec_con {
-	flex-wrap: wrap;
-	gap: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .product-desc_item {
-	width: clamp(7.5rem, 20vw, 10rem);
+  width: clamp(7.5rem, 20vw, 10rem);
 }
 
 .cta-price {
-	padding: 9%;
-	text-align: center;
-	background-color: var(--purple-200);
+  padding: 9%;
+  text-align: center;
+  background-color: var(--purple-200);
 }
 
 .cta-price_con {
-	background-color: white;
-	padding: clamp(1rem, 9%, 2rem);
-	width: clamp(5rem,80vw, 40rem);
-	margin: 0 auto;
-	border-radius: 2rem;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: white;
+  padding: clamp(1rem, 9%, 2rem);
+  width: clamp(5rem,80vw, 40rem);
+  margin: 0 auto;
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .cta-price_con > h3{
-	font-size: clamp(2rem, 12vw, 5rem);
-	font-weight: 900;
+  font-size: clamp(2rem, 12vw, 5rem);
+  font-weight: 900;
 }
 
 .cta-price_package {
-	flex-wrap: wrap;
-	padding-top: 5%;
-	gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  gap: 1rem;
 }
 
 .cta-price_info h1 {
-	 font-size: clamp(3rem, 5vw, 5rem);
+  font-size: clamp(3rem, 5vw, 5rem);
 }
 
 .cta-price_info h3 {
-	font-size: clamp(1rem, 9vw, 2rem);
+  font-size: clamp(1rem, 9vw, 2rem);
 }
 .cta-price_info h4{
-	font-size: clamp(1rem,4vw, 1.2rem);
-	font-style: italic;
+  font-size: clamp(1rem,4vw, 1.2rem);
+  font-style: italic;
 }
 
 .cta-price_bundle li {
-	color: black;
-	display: flex;
-	align-items: center;
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
 .cta-price_button {
-	background-color: var(--orange-200);
-	color: white;
-	border-radius: 2rem;
-	border: none;
-	padding: clamp(1rem,2%,2rem) clamp(1rem,9%,2rem);
-	font-size: clamp(1.5rem,10%, 3rem);
-	margin-top: 2rem;
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-	cursor: pointer;
+  background-color: var(--orange-200);
+  color: white;
+  border-radius: 2rem;
+  border: none;
+  padding: clamp(1rem,2%,2rem) clamp(1rem,9%,2rem);
+  font-size: clamp(1.5rem,10%, 3rem);
+  margin-top: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  cursor: pointer;
 }
 
 .button_breathe {
-	animation-name: breathe;
-	animation-timing-function: ease-in-out;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	position:relative ;
+  animation-name: breathe;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  position:relative ;
 }
 
 @keyframes breathe {
-	0% {
-		background-color: var(--orange-200);
-	}
+0% {
+  background-color: var(--orange-200);
+}
 
-	100% {
-		background-color: var(--orange-300);
-	}
+100% {
+  background-color: var(--orange-300);
+}
 }
 
 @media all and (min-width: 1024px){
-	.header-main {
-		flex-direction: row;
-		justify-content: flex-start;
-	}
+  .header-main {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 
-	.cta-price_info {
-		text-align: left;
-	}
-	.cta-price_info > h4 {
-		text-align: left;
-	}
+  .cta-price_info {
+    text-align: left;
+  }
+  .cta-price_info > h4 {
+    text-align: left;
+  }
 }
